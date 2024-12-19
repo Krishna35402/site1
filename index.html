@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open PDF Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Open PDF File Example</h1>
+
+    <!-- Button to trigger PDF opening -->
+    <button onclick="openPDF()">Open PDF</button>
+
+    <!-- Container for the PDF link or embed (hidden by default) -->
+    <div id="pdfContainer" style="display: none;">
+        <embed src="hy.pdf" width="600" height="400" >
+    </div>
+
+    <button onclick="openPDF1()">Open PDF</button>
+    <div id="pdfContainer1" style="display: none;">
+        <embed src="1.txt" width="600" height="400" >
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
